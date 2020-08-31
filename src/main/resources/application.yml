@@ -1,0 +1,14 @@
+com:
+  kafka:
+    topic: test
+
+spring:
+  data:
+    mongodb:
+      database: EmployeeDB
+      port: 27017
+      host: localhost
+  kafka:
+    bootstrap:
+      servers: localhost:9092
+
